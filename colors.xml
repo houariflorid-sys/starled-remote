@@ -1,0 +1,15 @@
+<resources>
+    <color name="remote_bg">#181A1F</color>
+    <color name="remote_body">#23272F</color>
+    <color name="button_dark">#2C313C</color>
+    <color name="button_pressed">#404756</color>
+    <color name="power_red">#E02E2E</color>
+    <color name="mute_green">#10B981</color>
+    <color name="teletext_red">#DC2626</color>
+    <color name="teletext_green">#16A34A</color>
+    <color name="teletext_yellow">#EAB308</color>
+    <color name="teletext_blue">#2563EB</color>
+    <color name="label_white">#F8FAFC</color>
+    <color name="label_gray">#94A3B8</color>
+    <color name="ir_led_active">#EC4899</color>
+</resources>

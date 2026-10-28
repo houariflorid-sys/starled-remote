@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.StarLEDHK320DF" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">#181A1F</item>
+        <item name="android:navigationBarColor">#181A1F</item>
+        <item name="android:windowBackground">#181A1F</item>
+    </style>
+</resources>

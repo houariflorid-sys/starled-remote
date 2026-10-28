@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Infrared Transmit Permission for ConsumerIrManager -->
+    <uses-permission android:name="android.permission.TRANSMIT_IR" />
+
+    <!-- Optional Haptic Feedback for Remote Button Clicks -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- Hardware Feature: Mark required as false so devices without IR blaster can install and see diagnostic reports -->
+    <uses-feature
+        android:name="android.hardware.consumerir"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StarLEDHK320DF">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.StarLEDHK320DF">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

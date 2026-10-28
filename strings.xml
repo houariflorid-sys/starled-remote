@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ريموت ستارليد HK320DF</string>
+    <string name="remote_title">ستارليد HK320DF</string>
+    <string name="device_model">إنفينيكس هوت 60 برو+ / تلفاز 32 بوصة</string>
+    <string name="ir_available">باعث الأشعة تحت الحمراء جاهز (38 كيلو هرتز)</string>
+    <string name="ir_missing">لم يتم العثور على باعث أشعة تحت الحمراء</string>
+    <string name="ir_missing_desc">جهازك لا يحتوي على باعث أشعة تحت حمراء داخلي. يلزم محول خارجي لإرسال الإشارات.</string>
+    <string name="discovery_wizard">معالج استكشاف الرموز</string>
+    <string name="btn_test">تجربة الرمز</string>
+    <string name="btn_confirm_yes">استجاب التلفاز (نعم)</string>
+    <string name="btn_confirm_no">لم يستجب (لا)</string>
+    <string name="profile_selector">اختيار ملف اللوحة الإلكترونية</string>
+    <string name="status_verified">مؤكد ويعمل</string>
+    <string name="status_candidate">رمز مرشح</string>
+    <string name="status_untested">غير مجرب</string>
+</resources>
